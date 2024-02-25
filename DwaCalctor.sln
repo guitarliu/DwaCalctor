@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DwaCalctor", "DwaCalctor\DwaCalctor.csproj", "{44BB95AB-FF25-48C2-B5FE-6A1DD8764010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44BB95AB-FF25-48C2-B5FE-6A1DD8764010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BB95AB-FF25-48C2-B5FE-6A1DD8764010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BB95AB-FF25-48C2-B5FE-6A1DD8764010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BB95AB-FF25-48C2-B5FE-6A1DD8764010}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C61BDC7F-048A-4D7F-B5FD-433FBC583995}
+	EndGlobalSection
+EndGlobal
