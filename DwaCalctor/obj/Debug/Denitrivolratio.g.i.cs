@@ -188,7 +188,7 @@ namespace DwaCalctor {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AutoSignRobot;component/denitrivolratio.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DwaCalctor;component/denitrivolratio.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\Denitrivolratio.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

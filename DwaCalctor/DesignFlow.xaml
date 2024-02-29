@@ -24,7 +24,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Tbx_Q_d_Knoz_TextChanged"/>
             </Border>
             <Label Content="日平均进水量&#x0a;(m3/h)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"

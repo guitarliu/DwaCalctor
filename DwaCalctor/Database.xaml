@@ -26,7 +26,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="颗粒性惰性&#x0a;组分比例"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -44,7 +44,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="易降解&#x0a;COD比例"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -62,7 +62,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="进水可过滤&#x0a;无机物质"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -80,7 +80,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="进水可过滤&#x0a;无机物质"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -98,7 +98,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="进水可过滤&#x0a;无机物质"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -116,7 +116,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="衰减系统d &#x207B;&#xB9;"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="12"
@@ -134,7 +134,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="污泥体积指数"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -152,7 +152,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="设计浓缩时间(h)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -170,7 +170,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="膜池-好氧池&#x0a;回流比"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -188,7 +188,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="缺氧池-厌氧池&#x0a;回流比"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -206,7 +206,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="混合液剩余&#x0a;DO值"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -224,7 +224,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="标准饱和溶解氧&#x0a;(mg/L)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -242,7 +242,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="计算混合液温度&#x0a;(℃)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -260,7 +260,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="夏季温度(℃)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -278,7 +278,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="管道阻力(m)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -296,7 +296,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="曝气器&#x0a;水头损失(m)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -314,7 +314,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
 
                 <Label Content="补偿压力值&#x0a;(m/℃)"  FontStyle="Italic"
@@ -333,7 +333,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="设计进水&#x0a;硝氮(mg/L)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -351,7 +351,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="最大比&#x0a;生长速率(d^-1)"  FontStyle="Italic"
                 Background="Transparent" Height="40" FontSize="10.5"
@@ -369,7 +369,7 @@
                     BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                     VerticalAlignment="Center" HorizontalAlignment="Center" 
-                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
             </StackPanel>
         </GroupBox>
@@ -392,7 +392,7 @@
                             BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                             VerticalAlignment="Center" HorizontalAlignment="Center" 
-                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Update_Database"/>
                     </Border>
                     <Label Content="进水生物&#x0a;需氧量(mg/L)"  FontStyle="Italic"
                         Background="Transparent" Height="40" FontSize="10.5"
@@ -410,7 +410,7 @@
                             BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                             VerticalAlignment="Center" HorizontalAlignment="Center" 
-                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Update_Database" />
                     </Border>
                     <Label Content="进水总磷&#x0a;(mg/L)"  FontStyle="Italic"
                         Background="Transparent" Height="40" FontSize="10.5"
@@ -428,7 +428,7 @@
                             BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                             VerticalAlignment="Center" HorizontalAlignment="Center" 
-                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Update_Database" />
                     </Border>
                     <Label Content="进水总氮&#x0a;(mg/L)"  FontStyle="Italic"
                         Background="Transparent" Height="40" FontSize="10.5"
@@ -446,7 +446,7 @@
                             BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                             VerticalAlignment="Center" HorizontalAlignment="Center" 
-                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Update_Database"/>
                     </Border>
                     <Label Content="进水悬浮&#x0a;固体(mg/L)"  FontStyle="Italic"
                         Background="Transparent" Height="40" FontSize="10.5"
@@ -464,7 +464,7 @@
                             BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                             VerticalAlignment="Center" HorizontalAlignment="Center" 
-                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Update_Database" />
                     </Border>
                     <Label Content="设计温度&#x0a;(℃)"  FontStyle="Italic"
                         Background="Transparent" Height="40" FontSize="10.5"
@@ -482,7 +482,7 @@
                             BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                             VerticalAlignment="Center" HorizontalAlignment="Center" 
-                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                            AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" TextChanged="Update_Database" />
                     </Border>
                 </StackPanel>
             </GroupBox>
@@ -505,7 +505,7 @@
                         BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                         VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                         VerticalAlignment="Center" HorizontalAlignment="Center" 
-                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="出水生物&#x0a;需氧量(mg/L)"  FontStyle="Italic"
                     Background="Transparent" Height="40" FontSize="10.5"
@@ -523,7 +523,7 @@
                         BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                         VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                         VerticalAlignment="Center" HorizontalAlignment="Center" 
-                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="出水总磷&#x0a;(mg/L)"  FontStyle="Italic"
                     Background="Transparent" Height="40" FontSize="10.5"
@@ -541,7 +541,7 @@
                         BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                         VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                         VerticalAlignment="Center" HorizontalAlignment="Center" 
-                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="出水总氮&#x0a;(mg/L)"  FontStyle="Italic"
                     Background="Transparent" Height="40" FontSize="10.5"
@@ -559,7 +559,7 @@
                         BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                         VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                         VerticalAlignment="Center" HorizontalAlignment="Center" 
-                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="出水氨氮&#x0a;(mg/L)"  FontStyle="Italic"
                     Background="Transparent" Height="40" FontSize="10.5"
@@ -577,7 +577,7 @@
                         BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                         VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                         VerticalAlignment="Center" HorizontalAlignment="Center" 
-                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
                 <Label Content="出水悬浮&#x0a;固体(mg/L)"  FontStyle="Italic"
                     Background="Transparent" Height="40" FontSize="10.5"
@@ -595,7 +595,7 @@
                         BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
                         VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
                         VerticalAlignment="Center" HorizontalAlignment="Center" 
-                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality" />
+                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"  TextChanged="Update_Database"/>
                 </Border>
             </StackPanel>
         </GroupBox>

@@ -76,7 +76,7 @@ namespace DwaCalctor {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AutoSignRobot;component/nitribacteriasludage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DwaCalctor;component/nitribacteriasludage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\NitribacteriaSludage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

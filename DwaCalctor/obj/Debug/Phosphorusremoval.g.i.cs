@@ -204,7 +204,7 @@ namespace DwaCalctor {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AutoSignRobot;component/phosphorusremoval.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DwaCalctor;component/phosphorusremoval.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\Phosphorusremoval.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

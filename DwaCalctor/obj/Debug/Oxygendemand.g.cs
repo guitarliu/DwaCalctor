@@ -228,7 +228,7 @@ namespace DwaCalctor {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AutoSignRobot;component/oxygendemand.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DwaCalctor;component/oxygendemand.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\Oxygendemand.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
