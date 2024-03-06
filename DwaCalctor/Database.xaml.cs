@@ -107,7 +107,7 @@ namespace DwaCalctor
 
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data.json");
             // 将 JSON 字符串写入到文件
-            File.WriteAllText("data.json", jsonString);
+            File.WriteAllText(filePath, jsonString);
         }
         /// <summary>
         /// 基础数据窗口初始化时即读取现有数据，以便用户查看；
