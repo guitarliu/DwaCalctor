@@ -54,11 +54,11 @@ DwaCalctor 是一个基于 WPF 的应用程序，实现了 DWA-A 131（2016）�
 
 ## 致谢
 
-本项目是基于参考文章中提供的原始 Python 脚本的 WPF 实现。
+本项目是基于参考文章中提供的原始 Python 脚本的 WPF 实现。在这里对前辈表示感谢！。
 
 ## 作者信息
 
-- 博客：[作者博客主页](https://your-blog-url.com)
+- 博客：[主页](https://spacetools.top)
 - 公众号：SpaceTools
 
 ## 贡献
@@ -71,7 +71,7 @@ DwaCalctor 是一个基于 WPF 的应用程序，实现了 DWA-A 131（2016）�
 4. 将您的更改推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启一个 Pull Request
 
-在提交 Pull Request 之前，请确保您的代码符合我们的编码规范，并且所有测试都已通过。
+在提交 Pull Request 之前，请确保您的代码符合编码规范，并且所有测试都已通过。
 
 ## 许可证
 

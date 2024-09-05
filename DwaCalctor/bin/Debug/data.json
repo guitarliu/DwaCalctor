@@ -33,7 +33,7 @@
     "S_COD_AN": 100,
     "S_BOD5_AN": 50,
     "S_TP_AN": 5,
-    "S_TN_AN": 1,
+    "S_TN_AN": 10,
     "S_NH4_AN": 0.5,
     "S_SS_AN": 10
   },
@@ -54,7 +54,7 @@
     "C_COD_la_ZB": 72.640000000000001,
     "X_anorg_TS_ZB": 15,
     "S_TKN_AN": 2.5,
-    "S_anorgN_UW": -1.5
+    "S_anorgN_UW": 7.5
   },
   "Groupnitribacter": {
     "B_D_COD_Z": 2000,
@@ -62,12 +62,12 @@
     "t_TS_aerob_Bem": 2.6819999999999999
   },
   "Groupdenitrial": {
-    "selected_num": 0,
+    "selected_num": 2,
     "US_d_C": "631.843",
     "t_TS_Bem": "3.353",
     "V_D_over_V_BB": "0.210",
-    "S_NO3_AN": "-1.050",
-    "S_NO3_D": "-0.684",
+    "S_NO3_AN": "5.250",
+    "S_NO3_D": "-6.984",
     "OV_C": "223.658"
   },
   "Groupphosremoval": {
@@ -92,10 +92,10 @@
   "Groupoxygendemand": {
     "OV_d_C": "0.000",
     "OV_d_N": "-252.281",
-    "OV_d_D": "-9.781",
-    "OV_h_aM": "-10.104",
-    "OV_h_max": "-19.885",
-    "alfa": "0.5",
+    "OV_d_D": "-99.871",
+    "OV_h_aM": "-6.350",
+    "OV_h_max": "-12.498",
+    "alfa": "1",
     "beta": "21",
     "h_TB2A": "0.65",
     "h_tk": "6",
@@ -106,9 +106,9 @@
     "P_b": "0.154",
     "C_SW": "8.240",
     "C_SM": "6.459",
-    "FCF": "7.287",
-    "SOR": "-1.387",
-    "G_S": "-0.055",
+    "FCF": "14.573",
+    "SOR": "-0.436",
+    "G_S": "-0.017",
     "V_GS_over_V_knoz": "0.000"
   }
 }
