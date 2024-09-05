@@ -1,0 +1,87 @@
+﻿<Window x:Class="DwaCalctor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DwaCalctor"
+        xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+        mc:Ignorable="d"
+        MinHeight="600"
+        MinWidth="800"
+        WindowState="Normal"
+        WindowStartupLocation="CenterScreen"
+        Icon="/Icons/Logo.png" RenderOptions.BitmapScalingMode="HighQuality"
+        Title="DWA-A一段式工艺计算器">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="135"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="Transparent">
+            <StackPanel x:Name="StpColumn" Background="#FF42424E">
+                <Image Source="Icons/Logo.png" Width="60" Height="60" HorizontalAlignment="Left" Margin="40,25,0,35" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <Button x:Name="BtnDatabase" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnDatabase_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/Database.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="   基  础  数  据" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="BtnDesignFlow" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnDesignFlow_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/DesignFlow.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="   设  计  流  量" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="BtnHydrobalance" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnHydrobalance_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/Hydrobalance.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="  进 出 水 平 衡" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="BtnNitribacteriaSludage" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnNitribacteriaSludage_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/NitribacteriaSludage.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="  硝 化 菌 泥 龄" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="BtnDenitrivolratio" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnDenitrivolratio_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/Denitrivolratio.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="  反硝化体积比" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="BtnPhosphorusremoval" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnPhosphorusremoval_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/Phosphorusremoval.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="  除             磷" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="BtnBioreactorvolume" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnBioreactorvolume_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/Bioreactorvolume.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="  生 物 池 容 积" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="BtnOxygendemand" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnOxygendemand_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/Oxygendemand.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="  需     氧     量" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="BtnAboutinfo" Background="Transparent" Height="35" BorderThickness="0" Margin="0,0,0,5" Click="BtnAboutinfo_Click">
+                    <WrapPanel>
+                        <Image Source="Icons/AboutInfo.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <TextBlock Text="  关              于" Foreground="WhiteSmoke" VerticalAlignment="Center" FontSize="12.5"/>
+                    </WrapPanel>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="GridTopPanel" Grid.Column="1" Background="#FF009688" Height="80" VerticalAlignment="Top">
+            <Label x:Name="LblHomeTile" Foreground="WhiteSmoke" Content="Home" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Arial Black"/>
+        </Grid>
+        <Grid x:Name="DesktopGrid" Grid.Column="1" Margin="0,80,0,0">
+            <Image Source="{svgc:SvgImage Icons/cover.svg}" Stretch="UniformToFill"
+                    StretchDirection="Both" RenderOptions.BitmapScalingMode="HighQuality"/>
+        </Grid>
+    </Grid>
+</Window>

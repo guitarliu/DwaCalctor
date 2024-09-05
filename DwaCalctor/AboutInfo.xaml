@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="DwaCalctor.AboutInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DwaCalctor"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="WhiteSmoke">
+    <UserControl.Resources>
+        <DropShadowEffect x:Key="shadowEffect" BlurRadius="10" ShadowDepth="5" Direction="320" Color="LightGray"/>
+    </UserControl.Resources>
+    <Grid>
+        <StackPanel Background="Transparent">
+            <Border Background="White" CornerRadius="10" Padding="15" Margin="20,10,20,10"
+                    Effect="{DynamicResource shadowEffect}">
+                <TextBlock x:Name="Tbk_BackgroundContent" TextWrapping="Wrap"
+                           FontSize="15" Margin="5"
+                           FontFamily="Segoe UI" Grid.Row="0"/>
+            </Border>
+            <Border Background="White" CornerRadius="10" Padding="15" Margin="20,10,20,10"
+                    Effect="{DynamicResource shadowEffect}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="Tbk_MainContent" TextWrapping="Wrap"
+                           FontSize="15" Margin="5"
+                           FontFamily="Segoe UI" Grid.Row="0"/>
+                    <TextBlock x:Name="Tbk_ResourceContent"
+                               Grid.Row="1" Margin="5" FontSize="15"
+                               FontFamily="Segoe UI" TextWrapping="Wrap">
+                        <Run Text="参考地址："/>
+                        <Hyperlink NavigateUri="https://mp.weixin.qq.com/s/5PEM41xmiHEKbiKVIAU4fA" 
+                               RequestNavigate="Hyperlink_RequestNavigate">
+                            https://mp.weixin.qq.com/s/5PEM41xmiHEKbiKVIAU4fA
+                        </Hyperlink>
+                        <LineBreak/>
+                        <Run Text="项目地址："/>
+                        <Hyperlink NavigateUri="https://github.com/guitarliu/DwaCalctor" 
+                               RequestNavigate="Hyperlink_RequestNavigate">
+                            https://github.com/guitarliu/DwaCalctor
+                        </Hyperlink>
+                    </TextBlock>
+                </Grid>
+            </Border>
+            <Border Background="White" CornerRadius="10" Padding="15" Margin="20,10,20,10"
+                    Effect="{DynamicResource shadowEffect}">
+                <TextBlock x:Name="Tbk_Author" TextWrapping="Wrap"
+                           FontSize="15" Margin="5"
+                           FontFamily="Segoe UI" LineHeight="30">
+                    <Run Text="作者：LiuYong"/>
+                    <LineBreak/>
+                    <Run Text="博客："/>
+                    <Hyperlink NavigateUri="https://spacetools.top" 
+                               RequestNavigate="Hyperlink_RequestNavigate">
+                        https://spacetools.top
+                    </Hyperlink>
+                    <LineBreak/>
+                    <Run Text="Github："/>
+                    <Hyperlink NavigateUri="https://github.com/guitarliu" 
+                               RequestNavigate="Hyperlink_RequestNavigate">
+                        https://github.com/guitarliu
+                    </Hyperlink>
+                    <LineBreak/>
+                    <Run Text="公众号：SpaceTools"/>
+                </TextBlock>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>

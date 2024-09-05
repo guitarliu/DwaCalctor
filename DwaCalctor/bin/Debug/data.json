@@ -1,0 +1,114 @@
+{
+  "Groupdatabase": {
+    "f_s": 0.050000000000000003,
+    "f_A": 0.29999999999999999,
+    "f_COD": 0.20000000000000001,
+    "f_B": 0.29999999999999999,
+    "S_orgN_AN": 2,
+    "Y_COD_abb": 0.67000000000000004,
+    "b": 0.17000000000000001,
+    "SVI": 120,
+    "t_E": 2,
+    "R_m2a": 4,
+    "R_D3an": 2,
+    "C_0": 2,
+    "C_S": 9.1699999999999999,
+    "T_TS": 20,
+    "T_summer": 35,
+    "h_p": 0.40000000000000002,
+    "h_A": 0.40000000000000002,
+    "h_delta": 0.02,
+    "S_NO3_ZB": 10,
+    "miu_A_max": 0.46999999999999997
+  },
+  "Groupinflow": {
+    "C_COD_ZB": 400,
+    "C_BOD5_ZB": 150,
+    "C_P_ZB": 10,
+    "C_TN_ZB": 10,
+    "C_SS_ZB": 50,
+    "T_C": 25
+  },
+  "Groupoutflow": {
+    "S_COD_AN": 100,
+    "S_BOD5_AN": 50,
+    "S_TP_AN": 5,
+    "S_TN_AN": 1,
+    "S_NH4_AN": 0.5,
+    "S_SS_AN": 10
+  },
+  "Groupflowdata": {
+    "Q_d_Knoz": 5000,
+    "Q_h_Knoz": 208.333,
+    "Kz": 1.968,
+    "Q_d_max": 9840,
+    "Q_h_max": 410
+  },
+  "Grouphydrobalance": {
+    "X_TS_ZB": 50,
+    "X_COD_ZB": 56,
+    "S_COD_ZB": 344,
+    "S_COD_inert_ZB": 20,
+    "X_COD_inert_ZB": 16.800000000000001,
+    "C_COD_abb_ZB": 363.19999999999999,
+    "C_COD_la_ZB": 72.640000000000001,
+    "X_anorg_TS_ZB": 15,
+    "S_TKN_AN": 2.5,
+    "S_anorgN_UW": -1.5
+  },
+  "Groupnitribacter": {
+    "B_D_COD_Z": 2000,
+    "PF": 2.1000000000000001,
+    "t_TS_aerob_Bem": 2.6819999999999999
+  },
+  "Groupdenitrial": {
+    "selected_num": 0,
+    "US_d_C": "631.843",
+    "t_TS_Bem": "3.353",
+    "V_D_over_V_BB": "0.210",
+    "S_NO3_AN": "-1.050",
+    "S_NO3_D": "-0.684",
+    "OV_C": "223.658"
+  },
+  "Groupphosremoval": {
+    "selected_num": 1,
+    "M_TS_BB": "2885.669"
+  },
+  "Groupbioreactor": {
+    "TS_BB": "200",
+    "V_BB": "14.428",
+    "V_an": "208.333",
+    "V_D": "3.030",
+    "V_aero": "-193.905",
+    "V_bioT": "222.761",
+    "HRT_an": "1.000",
+    "HRT_D": "0.015",
+    "HRT_aero": "-0.931",
+    "HRT_bioT": "1.069",
+    "RF": "0.651",
+    "RZ": "-0.349",
+    "eta_0": "0.394"
+  },
+  "Groupoxygendemand": {
+    "OV_d_C": "0.000",
+    "OV_d_N": "-252.281",
+    "OV_d_D": "-9.781",
+    "OV_h_aM": "-10.104",
+    "OV_h_max": "-19.885",
+    "alfa": "0.5",
+    "beta": "21",
+    "h_TB2A": "0.65",
+    "h_tk": "6",
+    "h_El": "23",
+    "E_A": "90",
+    "O_t": "1.044",
+    "P_a": "0.101",
+    "P_b": "0.154",
+    "C_SW": "8.240",
+    "C_SM": "6.459",
+    "FCF": "7.287",
+    "SOR": "-1.387",
+    "G_S": "-0.055",
+    "V_GS_over_V_knoz": "0.000"
+  }
+}

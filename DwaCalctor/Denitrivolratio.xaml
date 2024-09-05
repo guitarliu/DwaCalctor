@@ -1,0 +1,320 @@
+﻿<UserControl x:Class="DwaCalctor.Denitrivolratio"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DwaCalctor"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="WhiteSmoke">
+    <Grid>
+        <StackPanel Margin="10,15,0,0">
+            <Label Content="投加碳源类型"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="0,5,0,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <ComboBox x:Name="Cbx_COD_dos_name" ToolTip="投加碳源类型" Margin="5,-5,0,0"
+                Width="64" Height="25" Foreground="#596FB7" FontWeight="DemiBold"
+                VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                RenderOptions.BitmapScalingMode="HighQuality" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBox.Resources>
+                    <SolidColorBrush x:Key="{x:Static SystemColors.WindowBrushKey}" Color="#F3F8FF" />
+                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#F3F8FF"/>
+                </ComboBox.Resources>
+                <ComboBoxItem Content="甲醇"/>
+                <ComboBoxItem Content="乙醇"/>
+                <ComboBoxItem Content="醋酸"/>
+            </ComboBox>
+            <Label Content="内源呼吸&#x0a;衰减系数"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="75,-65,0,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="75,-25,0,0">
+                <TextBox x:Name="Tbx_F_T" ToolTip="内源呼吸的衰减系数"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="外加碳源化学&#x0a;需氧量(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="140,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="145,-25,10,0">
+                <TextBox x:Name="Tbx_C_COD_dos" ToolTip="mg/L，外加碳源化学需氧量"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="缺氧池/曝气&#x0a;池体积比例"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="215,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="215,-25,10,0">
+                <TextBox x:Name="Tbx_V_D_over_V_BB" ToolTip="缺氧池/曝气池体积比例"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="耗氧量和供&#x0a;氧量平衡"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="285,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="285,-25,10,0">
+                <TextBox x:Name="Tbx_x" ToolTip="耗氧量和供氧量平衡"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="设计污泥&#x0a;泥龄(d)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="355,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="355,-25,10,0">
+                <TextBox x:Name="Tbx_t_TS_Bem" ToolTip="设计污泥泥龄,d"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="生物体中的&#x0a;COD(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="420,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="425,-25,10,0">
+                <TextBox x:Name="Tbx_X_COD_BM" ToolTip="生物体中的COD,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="剩余惰性&#x0a;固体(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="490,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="495,-25,10,0">
+                <TextBox x:Name="Tbx_X_COD_inert_BM" ToolTip="剩余惰性固体,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="污泥产量&#x0a;(kg/d)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="10,10,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="10,0,10,0">
+                <TextBox x:Name="Tbx_US_d_C" ToolTip="污泥产量,kg/d"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="出水硝态氮&#x0a;(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="80,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="80,-25,10,0">
+                <TextBox x:Name="Tbx_S_NO3_AN" ToolTip="出水硝态氮,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="形成活性污泥&#x0a;的氮(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="145,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="150,-25,10,0">
+                <TextBox x:Name="Tbx_X_orngN_BM" ToolTip="形成活性污泥的氮,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="与惰性颗粒结&#x0a;合的氮(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="215,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="220,-25,10,0">
+                <TextBox x:Name="Tbx_X_orgN_inert" ToolTip="与惰性颗粒结合的氮,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="日均反硝化硝&#x0a;态氮(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="290,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="290,-25,10,0">
+                <TextBox x:Name="Tbx_S_NO3_D" ToolTip="每日平均反硝化的硝态氮浓度,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="碳降解的总&#x0a;需氧量(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="360,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="360,-25,10,0">
+                <TextBox x:Name="Tbx_OV_C" ToolTip="碳降解的总需氧量,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="反硝化区易降&#x0a;解及外加碳源&#x0a;需氧量(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="45" FontSize="9"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="430,-70,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="430,-25,10,0">
+                <TextBox x:Name="Tbx_OV_C_la_vorg" ToolTip="反硝化区易降解及外加碳源需氧量,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="反硝化总需&#x0a;氧量(mg/L)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="500,-65,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="500,-25,10,0">
+                <TextBox x:Name="Tbx_OV_C_D" ToolTip="反硝化总需氧量,mg/L"
+                    Background="Transparent" BorderBrush="Transparent"
+                    BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                    VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                    AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+            <Label Content="反硝化菌&#x0a;泥龄(d)"  FontStyle="Italic"
+                Background="Transparent" Height="40" FontSize="10.5"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="10,10,10,0" VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Border 
+                Background="#FFA33C" BorderThickness="0.5"
+                CornerRadius="8" Width="60" Height="25"
+                VerticalAlignment="Top" HorizontalAlignment="Left"
+                Margin="10,0,10,0">
+                <TextBox x:Name="Tbx_T_TS_D_Bem" ToolTip="反硝化菌泥龄,d"
+                        Background="Transparent" BorderBrush="Transparent"
+                        BorderThickness="0" Width="64" Height="25" Foreground="WhiteSmoke"
+                        VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                        VerticalAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True"
+                        AcceptsReturn="False" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>
