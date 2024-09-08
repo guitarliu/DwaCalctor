@@ -3,7 +3,6 @@
 DwaCalctor 是一个基于 WPF 的应用程序，实现了 DWA-A 131（2016）一段式活性污泥法的设计计算。它为污水处理厂设计人员提供了一个用户友好的界面，可以根据更新的德国标准进行计算。
 
 ![软件图标](https://github.com/guitarliu/DwaCalctor/blob/main/DwaCalctor/Icons/Logo.png)
-![思维导图](https://github.com/guitarliu/DwaCalctor/blob/main/mindmap.svg)
 
 ## 功能特点
 
